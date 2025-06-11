@@ -1,0 +1,123 @@
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.5;
+}
+.boite-principale {
+    width: 900px;
+    margin: 40px auto;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+}
+.entete-page {
+    text-align: center;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 40px;
+}
+.entete-page h1 {
+    font-size: 2.5em;
+    color: #222;
+    margin-bottom: 0px;
+}
+.entete-page p {
+    font-size: 1.1em;
+    color: #555;
+    margin-top: 5px;
+}
+
+.infos-contact {
+    margin-top: 30px;
+    font-size: 1em;
+    color: #444;
+    border: 1px dashed #999;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+.infos-contact p {
+    margin: 3px 0;
+}
+.section-biographie, .section-competences, .section-experience, .section-formation, .section-reseaux {
+    margin-bottom: 25px;
+    padding: 18px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-left: 5px solid #007bff;
+}
+section h2 {
+    color: #000;
+    font-size: 1.7em;
+    margin-bottom: 12px;
+    text-decoration: underline;
+    padding-bottom: 3px;
+}
+section h3 {
+    color: #666;
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-style: italic;
+}
+section ul {
+    list-style: circle;
+    padding-left: 30px;
+}
+section li {
+    background-color: #eee;
+    margin-bottom: 5px;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+}
+
+.entree-travail, .entree-etude {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #bbb;
+    background-color: #f5f5f5;
+}
+.entree-travail h3, .entree-etude h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 1.1em;
+}
+.entree-travail .ville-lieu {
+    font-weight: bold;
+    color: #888;
+    margin-bottom: 8px;
+}
+
+.liens-reseaux {
+    text-align: left;
+    margin-top: 25px;
+}
+
+.lien-reseau {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    margin-right: 15px;
+    border: 2px outset #1b83f1;
+    font-weight: normal;
+}
+
+.lien-reseau:hover {
+    background-color: #066ad4;
+    border-style: inset;
+}
+
+.pied-de-page {
+    text-align: right;
+    margin-top: 50px;
+    padding-top: 15px;
+    border-top: 3px solid #ccc;
+    color: #aaa;
+    font-size: 0.9em;
+    background-color: #e0e0e0;
+}
